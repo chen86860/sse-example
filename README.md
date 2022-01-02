@@ -1,6 +1,6 @@
 # sse-example
 
-SSE (server-sent events) example using node.js
+SSE (server-sent events) example using Node.js
 
 [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) is a easy way to commutate with the client side in a single direction. it has loss cost and efficiency way compared to other protocols like Socket or polling query.
 
@@ -49,7 +49,7 @@ After run command above, you can open `http://localhost:1234` see the result in 
 
 ## Server
 
-The server is a simple node.js application that listens on port 3000. I create a Server Sent Event while sends data to the client interval in one second. Here is the core core of the server.
+The server is a simple Node.js application that listens on port 3000. I create a Server Sent Event while sends data to the client interval in one second. Here is the core core of the server.
 
 ```javascript
 ctx.set({
